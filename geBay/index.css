@@ -1,0 +1,183 @@
+header{
+    width: 100%;
+    height: 50px;
+    display: inline-flex;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid lightgray;
+    margin: 0px;
+    justify-content: space-between;
+    font-size: 13px;
+    z-index: 1;
+ }
+ header img{
+     border-radius: 50px;
+ }
+ #first-header{
+     display: inline-flex;
+     margin-left: 150px;
+ }
+ #second-header{
+     display: inline-flex;
+     margin-right: 150px;
+ }
+ .headerTextClass{
+     margin: 10px;
+ }
+ #searchBar{
+     width: 80%;
+     height: 45px;
+     text-align: center;
+     justify-content: center;
+     padding: 20px;
+     display: inline-flex;
+     margin-left: 8%;
+     border-bottom: 2px solid lightgray;
+ }
+ #logoImg{
+     margin-left: -35px;
+ }
+ #allCategory{
+     border-top: 2px solid black;
+     border-bottom: 2px solid black;
+     border-left: 2px solid lightgray;
+     border-right: 2px solid black;
+ }
+ #search{
+     margin-left: 5px;
+ }
+ nav{
+     margin-left: 15%;
+ }
+ nav div{
+    display: inline-flex;
+    padding: 10px;
+ }
+ #offer{
+     position: absolute;
+     display: inline-flex;
+     margin-left: 8%;
+     width: 82%;
+     height: 300px;
+     background-color: antiquewhite;
+ }
+ #bgImage{
+     width: 68%;
+     height: 300px;
+     background-image: url("offer-img.jpg");
+ }
+#offer-text{
+    width: 30%;
+    background-color: rgb(171, 248, 171);
+    padding-left: 50px;
+}
+#offer-button{
+    margin-top: 30px;
+}
+.type-text{
+    margin-left: 8%;
+    position: relative;
+    display: inline-flex;
+    margin-top: 330px;
+}
+.type-text p {
+    padding-left: 35px;
+    margin-top: 7px;
+}
+.shop-pages{
+    margin-left: 10%;
+}
+.shop-pages div{
+    display: inline-flex;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 150px;
+    height: 200px;
+}
+.shop-pages div img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.shop-pages div p{
+    margin-top: 175px;
+    margin-left: -100px;
+}
+.type-text-second{
+    margin-left: 8%;
+    position: relative;
+    display: inline-flex;
+    margin-top: 30px;
+}
+.type-text-second p{
+    margin-left: 35px;
+    margin-top: 7px;
+}
+footer{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    border-top: 2px lightgray solid;
+}
+footer b {
+    position: relative;
+    display: inline-flex;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-top: 80px;
+}
+#footer-text1{
+    display: inline-flex;
+    font-size: 13px;
+    margin-left: 100px;
+    margin-top: 10px
+}
+#footer-text2{
+    position: absolute;
+    display: inline-flex;
+    font-size: 13px;
+    margin-left: -65%;
+    margin-top: 50px
+}
+ header div :hover{
+    cursor: pointer;
+    text-decoration:underline;
+ }
+ nav :hover{
+    cursor: pointer;
+    text-decoration:underline;
+ }
+.type-text-hover :hover{
+    cursor: pointer;
+    text-decoration:underline;
+ }
+ .img-hover{
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+     z-index: 2;
+ }
+ .img-hover :hover{
+     position:relative;
+     cursor: pointer;
+     border: 3px lightgray solid;
+     z-index: 1;
+ }
+ .drop-down{
+     position: absolute;
+     border-radius: 3px;
+     border: 1px lightgray solid;
+     box-shadow: 3px 3px 10px 0px lightgray;
+     text-align: left;
+     font-size: 15px;
+     visibility: hidden;
+ }
+ .c:hover{
+     z-index: 1;
+     border-radius: 3px;
+     border: 1px lightgray solid;
+ }
+ .c:hover .drop-down{
+     visibility: visible;
+ }
